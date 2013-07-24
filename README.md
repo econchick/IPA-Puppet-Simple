@@ -2,8 +2,8 @@
 
 After cloning this repo, you can run these scripts one of two ways:
 
-1. [Vagrant](#Vagrant)
-2. [via Puppet directly on the machine(s)](#Puppet)
+1. [Vagrant](#vagrant)
+2. [via Puppet directly on the machine(s)](#puppet)
 
 #### Vagrant
 
