@@ -3,10 +3,10 @@ class ipa::params {
   $client_ipaddr    = '192.168.25.15'
   $config_server    = false
   $config_client    = true
-  $realm            = 'ROOTCLOUD.COM'
-  $domain           = 'rootcloud.com'
-  $server_fqdn      = 'master.rootcloud.com'
-  $client_fqdn      = 'client.rootcloud.com'
+  $realm            = 'EXAMPLE.COM'
+  $domain           = 'example.com'
+  $server_fqdn      = 'master.example.com'
+  $client_fqdn      = 'client.example.com'
   $hostname         = 'client'
   $password         = 'aaaAAA111'
 }
