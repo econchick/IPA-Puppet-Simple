@@ -39,4 +39,4 @@ After cloning this repo, you can run these scripts one of two ways:
 	3. `puppet module install puppetlabs/stdlib --verbose`
 	4. `cp server/params.pp /etc/puppet/modules/ipa/manifests/params.pp`
 	5. `puppet apply --verbose /etc/puppet/modules/ipa/manifests/init.pp -e 'include ipa'`
-2. Repeat previous step on client, replacing the `server` foldername with `client` in step 2.3 and 2.4
+2. Repeat previous step on client, replacing the `server` foldername with `client` in step 2.3 and 2.5
