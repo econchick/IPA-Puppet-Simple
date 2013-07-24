@@ -18,6 +18,7 @@ EOF
 Vagrant.configure("2") do |config|
   config.vm.define :server do |server|
     server.vm.box = "Fedora-18"
+    server.vm.box_url = "https://mirror.openshift.com/pub/vagrant/boxes/fedora-sphericalcow.box"
     server.vm.network :forwarded_port, guest: 80, host: 8080
     server.vm.network :forwarded_port, guest: 443, host: 1443
     server.vm.network :forwarded_port, guest: 53, host: 1053
@@ -30,6 +31,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define :client do |client|
     client.vm.box = "Fedora-18"
+    client.vm.box_url = "https://mirror.openshift.com/pub/vagrant/boxes/fedora-sphericalcow.box"
     client.vm.network :forwarded_port, guest: 80, host: 8888
     client.vm.network :forwarded_port, guest: 443, host: 4443
     client.vm.network :forwarded_port, guest: 53, host: 1153ß
